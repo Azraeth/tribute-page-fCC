@@ -1,0 +1,113 @@
+html {
+    font-size: 10px;
+    background-color: #0d1321;
+    color: #f0ebd8;
+}
+
+body {
+    font-family: "Yrsa", "Montserrat", sans-serif, monospace;
+    background-color: #1D2D44;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin: 0;
+    border-radius: 5px;
+}
+
+main {
+    margin: 30px 8px;
+    padding: 15px;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+#title {
+    font-size: 3.5rem;
+    font-family: 'Lato', sans-serif, monospace;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 460px) {
+    #title {
+        font-size: 3.0rem;
+        line-height: 1.2;
+    }
+}
+
+#subtitle {
+    font-family: 'Poppins', sans-serif, monospace;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background-color: #F5F2E7;
+    padding: 15px 10px 10px 10px;
+    margin: 0px;
+    border-radius: 3px;
+}
+
+#img-caption {
+    color: #1D2D44;
+    padding: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.6rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+}
+
+ul {
+    max-width: 540px;
+    text-align: left;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+a {
+    color: #D9D7EF;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+@media (any-hover: hover) {
+    a:hover {
+        color: #EFD9D7;
+    }
+}
+
+blockquote {
+    font-size: 2.2rem;
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+@media (max-width: 460px) {
+    blockquote {
+        font-size: 1.8rem;
+        max-width: 270px;
+    }
+}
