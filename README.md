@@ -1,2 +1,2 @@
-# tribute-page-fCC
+# _Tribute Page_ a project for freeCodeCamp
 Tribute page to Roger Penrose, required for the freeCodeCamp Responsive Web Design certification.
